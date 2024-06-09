@@ -1,4 +1,5 @@
 export default () => ({
+    NODE_ENV: process.env.NODE_ENV, //need to deploy in Railway
     port: parseInt(process.env.PORT), // chuyển sang dạng số thôi ko có j
     secret: process.env.SECRET,
     dbHost: process.env.DB_HOST,
